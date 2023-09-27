@@ -38,3 +38,23 @@
     ul {
         padding-left: 100px;
     }
+    table {
+        width: 400px;
+        margin: 50px 50px;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 8px 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #e9dcdc;
+    }
+    th{
+        padding: 12px 8px;
+        text-align: left;
+        background-color: #f87474;
+        color: white;
+    }
+    tr:hover {
+        background-color: #dddddd;
+    }
