@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Présentation des journaux</title>
+    </head>
+    <body>
+        <section id="message">
+        <link rel="stylesheet" href="style.css"/>
+            <form>
+                <label for="fname">Sélectionner un afficheur :</label>
+                <select name="afficheur">
+                    <option value="172.20.21.230">CP A</option>
+                    <option value="172.20.21.231">CP B</option>
+                    <option value="172.20.21.232">CE1 A</option>
+                    <option value="172.20.21.233">CE1 B</option>
+                    <option value="172.20.21.234">CE2 A</option>
+                    <option value="172.20.21.235">CE2 B</option>
+                    <option value="172.20.21.236">CM1 A</option>
+                    <option value="172.20.21.237">CM1 B</option>
+                    <option value="172.20.21.238">CM2 A</option>
+                    <option value="172.20.21.239">CM2 B</option>
+
+                </select>
+                <label for="lname">Indiquer le message :</label>
+                <input type="text" id="lname" name="lname" value="">
+
+
+                <label for="lname">Effet de l'apparition :</label>
+                <select id="select-effetappariton" name="effetapparition">
+                    <option value="FE">à gauche</option>
+                    <option value="FF">à droite</option>
+                    <option value="FI">bas vers le haut</option>
+                    <option value="FJ">haut vers le bas</option>
+                    
+                </select>
+
+
+                <label for="lname">Effet de l'affichage :</label>
+                <select id="select-effetaffichage" name="effetaffichage">
+                    <option value="MA">normale et rapide</option>
+                    <option value="MB">clignotant et rapide</option>
+                    <option value="MQ">normale</option>
+                    <option value="MR">clignotant</option>
+                    <option value="Mq">normale et lent</option>
+                    <option value="Mr">clignotant et lent</option>
+                </select>
+
+
+                <label for="lname">Effet de la duré d'affichage :</label>
+                <select id="select-dureaffichage" name="dureaffichage">
+                    
+                    <option value="WA">0.5 secondes</option>
+                    <option value="WB">1 secondes</option>
+                    <option value="WC">2 secondes</option>
+                    <option value="WD">3 secondes</option>
+                    <option value="WF">5 secondes</option>
+                    <option value="WK">10 secondes</option>
+                    <option value="WP">15 secondes</option>
+                    <option value="WK">10 secondes</option>
+                    <option value="WU">20 secondes</option>
+                    <option value="WZ">25 secondes</option>
+                    
+                </select>
+
+
+                <label for="lname">Effet de disparition :</label>
+                <select id="select-effetdisparition" name="effetdisparition">
+                    <option value="FE">à gauche</option>
+                    <option value="FF">à droite</option>
+                    <option value="FI">bas vers le haut</option>
+                    <option value="FJ">haut vers le bas</option>
+                </select>
+                
+                <br><input type="button" value="Envoyer">
+            </form>
+        </section>
+    </body>
+</html>
