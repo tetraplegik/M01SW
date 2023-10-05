@@ -1,0 +1,22 @@
+header{
+    grid-area: entete;
+}
+nav{
+    grid-area: navigation;
+}
+section{
+    grid-area: principale;
+}
+aside{
+    grid-area: liens;
+}
+footer{
+    grid-area: pied;
+}
+body{
+    display: grid;
+    width: 100%;
+    grid-template-areas: "entete entete" "navigation navigation" "principale liens" "pied pied";
+    grid-template-rows: 150px 40px minmax(400px, auto) autp;
+    grid-template-columns: 1fr 300px;
+}

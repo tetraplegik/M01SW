@@ -1,0 +1,59 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #ff715b;
+}
+nav{
+    background-color: #ff715b;
+}
+footer{
+    background-color: #ff715b;
+}
+h1{
+    font-size: 40px;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 20px;
+    font-variant: small-caps;
+}
+nav{
+    padding: 0px 20px;
+}
+nav p{
+    margin: 0%;
+    padding: 10px 10px;
+}
+span{
+    padding: 0px 30px;
+    font-size: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+tr:nth-child(even) {
+    background-color: white;
+    border: 2px solid;
+    transition-duration: 3ms;
+}
+section{
+    padding: 10px 10px;
+}
+aside{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 14px;
+    color: black;
+    background: linear-gradient(orange, white, orange);
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+footer h1{
+    font-size: 22px;
+}
+footer span{
+    color: white;
+}

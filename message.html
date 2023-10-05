@@ -7,10 +7,14 @@
     <body>
         <section id="message">
         <link rel="stylesheet" href="style.css"/>
-            <form>
+        <link rel="stylesheet" href="grille.css"/>
+        <link rel="stylesheet" href="balise.css"/>
+
+            <form method="post" action="rest.php">
+
                 <label for="fname">Sélectionner un afficheur :</label>
-                <select name="afficheur">
-                    <option value="172.20.21.230">CP A</option>
+                <select name="journal">
+                    <option value="172.20.21.158">CP A</option>
                     <option value="172.20.21.231">CP B</option>
                     <option value="172.20.21.232">CE1 A</option>
                     <option value="172.20.21.233">CE1 B</option>
@@ -23,7 +27,7 @@
 
                 </select>
                 <label for="lname">Indiquer le message :</label>
-                <input type="text" id="lname" name="lname" value="">
+                <input type="texte" id="lname" name="texte" value="">
 
 
                 <label for="lname">Effet de l'apparition :</label>
@@ -48,8 +52,7 @@
 
 
                 <label for="lname">Effet de la duré d'affichage :</label>
-                <select id="select-dureaffichage" name="dureaffichage">
-                    
+                <select id="select-dureeaffichage" name="dureeaffichage">
                     <option value="WA">0.5 secondes</option>
                     <option value="WB">1 secondes</option>
                     <option value="WC">2 secondes</option>
@@ -60,7 +63,6 @@
                     <option value="WK">10 secondes</option>
                     <option value="WU">20 secondes</option>
                     <option value="WZ">25 secondes</option>
-                    
                 </select>
 
 
@@ -72,7 +74,8 @@
                     <option value="FJ">haut vers le bas</option>
                 </select>
                 
-                <br><input type="button" value="Envoyer">
+                <br><input type="submit" value="Envoyer">
+
             </form>
         </section>
     </body>

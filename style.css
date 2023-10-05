@@ -38,10 +38,12 @@
     ul {
         padding-left: 100px;
     }
+    
     table {
         width: 400px;
         margin: 50px 50px;
     }
+    
     td {
         border: 1px solid #f87474;
         border-radius: 10px;
@@ -50,6 +52,7 @@
     tr:nth-child(even) {
         background-color: #f1dfdf;
     }
+    
     th{
         border-radius: 10px;
         padding: 12px 8px;
@@ -57,9 +60,11 @@
         background-color: #f87474;
         color: white;
     }
+    
     tr:hover {
         background-color: #dddddd;
     }
+    
     form{
         width: 400px;
         margin-top: 100px;
@@ -67,6 +72,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    
     label{
         display: block;
         width: 100%;
@@ -77,13 +83,16 @@
         font-size: 16px;
         margin-top: 30px;
     }
+    
     select{
         background-color: #ff715b;
         border: solid 1px #4C5454;
         border-radius: 5px;
 
     }
+    
     input{
         margin-top: 30px;
     }
+    
 
